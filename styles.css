@@ -196,3 +196,9 @@ button {
   }
 }
 
+/* 1 COL ON SMALL SCREENS */
+@media screen and (max-width:768px) {
+  #histories {
+    grid-template-columns: auto;
+  }
+}
